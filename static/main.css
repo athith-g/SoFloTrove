@@ -1,27 +1,62 @@
-* 
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*
 {
     margin: 0;
 }
+
 a
 {
     text-decoration: none;
     color: inherit;
 }
+
 html {
     height: 100%;
     margin:0;
     padding:0;
     overflow-x:hidden;
-}
-.header{
     background-color: black;
+}
+
+.sticky-header{
+    height: 5vh;
+    background-color: #21bff3;
+    position: sticky;
+    top: 0;
+}
+
+.header{
+    background-color: gray;
     height: 15vh;
     width: 100vw;
     display: grid;
     place-items: center;
+    grid-template-rows: 85%, 15%;
+}
+.logo-and-ads{
+    background-color: green;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1/3 1/3 1/3;
 }
 
 .desktop-logo{
     height: 25vh;
     margin-top: -5vh;
 }
+.adspace{
+    background-color: red;
+    width: 20vw;
+    height: 10vh;
+}
+
+.navigation {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+}
+

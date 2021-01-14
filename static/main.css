@@ -31,7 +31,7 @@ body{
     width: 100vw;
     display: grid;
     place-items: center;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 25% 50% 25%;
 }
 .ham-icon{
     width: 40px;
@@ -44,7 +44,24 @@ body{
     height: 3px;
     background-color: black;
 }
+.search{
+    display: grid;
+    place-items: center;
+}
+.box{
+    border-radius: 10px;
+    width: 30vw;
+}
 .login-button{
+    background-color: #61d8ff;
+    width: 100px;
+    display: grid;
+    place-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+}
+.donate-button{
     background-color: #61d8ff;
     width: 100px;
     display: grid;
@@ -104,5 +121,17 @@ body{
     display: flex;
     justify-content: space-around;
     width: 50vw;
+    font-size: 1.2em;
 }
-
+.dolphins-nav{
+    color: #ffa724;
+}
+.heat-nav{
+    color: #ff2424;
+}
+.inter-nav{
+    color: #ffa8e9;
+}
+.canes-nav{
+    color: #0e9e41;
+}
